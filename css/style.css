@@ -1,46 +1,66 @@
 body {
     background-color: #FFFFFF;
 }
+header {
+    background-color: #333;
+}
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  .navbar li {
+}
+.navbar li {
     float: right;
     padding-top: 7px;
     padding-bottom: 7px;
-  }
+}
   
-  .navbar li a {
+.navbar li a {
     font-family: monospace;
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  .navbar li a:hover {
+}
+.navbar li a:hover {
     background-color: #111;
-  }
-  section {
+}
+section {
     margin-left: 10%;
     margin-right: 10%;
-  }
-  img {
+}
+.logo {
     position: fixed; 
     top: 15px; 
     left: 28px;
     width: 2%;
-  }
-  h1 {
+}
+h1 {
       color: #FFFFFF;
       position: fixed;
       top: 1.5px;
       left: 85px;
-      font-family: 'Press Start 2P', cursive;
-  }
+      font-family: "Press Start 2P";
+}
+/* ITEMS CSS */
+table, th {
+    margin-top: 18px; 
+    border: 2px solid black;
+}
+.itemx, .skillx {
+    text-align: center;
+    padding: 8px;
+}
+.itempic {
+    display: block;
+    margin: 0 auto;
+    width: 55px;
+}
+.skillpic{
+    display: block;
+    margin: 0 auto;
+    width: 85px;   
+}
