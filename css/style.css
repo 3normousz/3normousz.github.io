@@ -32,8 +32,15 @@ body {
     margin-right: 10%;
   }
   img {
-    position:fixed; 
+    position: fixed; 
     top: 15px; 
     left: 28px;
     width: 2%;
+  }
+  h1 {
+      color: #FFFFFF;
+      position: fixed;
+      top: 1.5px;
+      left: 85px;
+      font-family: 'Press Start 2P', cursive;
   }
