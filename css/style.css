@@ -1,25 +1,29 @@
-body {
-    background-color: #FFFFFF;
+body, html{
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #333;
+    overflow: hidden;
+    display: block;
+}
+#navmenu {
+    background-color: #333;
 }
 .navbar {
+    float: right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 .navbar li {
     float: right;
     padding-top: 7px;
     padding-bottom: 7px;
+    background-color: #333;
 }
   
 .navbar li a {
     font-family: monospace;
-    display: block;
     color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
@@ -29,38 +33,45 @@ header {
     background-color: #111;
 }
 section {
+    clear: both;
     margin-left: 10%;
     margin-right: 10%;
 }
 .logo {
-    position: fixed; 
-    top: 15px; 
-    left: 28px;
-    width: 2%;
+    display: flex;
+    margin-top: 0.85%;
+    padding: 0.55%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%; 
+    width: 2.5%;
 }
 h1 {
-      color: #FFFFFF;
-      position: fixed;
-      top: 1.5px;
-      left: 85px;
-      font-family: "Press Start 2P";
+    margin-top: 1.55%;
+    float: left;
+    color: #B2B2B2;
+    font-family: "Press Start 2P";
 }
-/* ITEMS CSS */
+h2 {
+    clear: both;
+}
+/* ITEMS, SKILLS CSS */
 table, th {
-    margin-top: 18px; 
+    clear:both;
+    margin-top: 2%; 
     border: 2px solid black;
 }
 .itemx, .skillx {
     text-align: center;
-    padding: 8px;
+    padding: 4%;
 }
 .itempic {
     display: block;
     margin: 0 auto;
-    width: 55px;
+    width: 4rem;
 }
 .skillpic{
     display: block;
     margin: 0 auto;
-    width: 85px;   
+    width: 4rem;   
 }
