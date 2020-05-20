@@ -82,11 +82,12 @@ table, th {
 .navlist {
     display: inline-block;
     width: 100%;
+    margin-left: -15%;
 }
 .navlist li{
     float: right;
-    margin-right: 16px;
-    margin-left: 0px;
+    margin-right: 4%;
+    margin-left: 10%;
     width: 35%;
 }
 .name {
