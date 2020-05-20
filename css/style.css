@@ -110,11 +110,14 @@ table, th {
     }
     .navlist {
         display: block;
+        margin-left: -1%;
+        margin-right: 0%;
     }
     .navlist li {
         float: right;
-        margin-left: -2rem;
-        margin-right: 2rem;
-        width: 7%;
+        margin-left: -2%;
+        margin-right: 2%;
+        width: 9.5%;
     }
+}
 }
