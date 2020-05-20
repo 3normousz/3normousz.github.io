@@ -35,7 +35,7 @@ header {
     margin-right: 15px; 
     width: 2%;
 }
-h1 {
+.name {
     margin-top: 12px;
     float: left;
     color: #B2B2B2;
@@ -68,7 +68,7 @@ table, th {
     margin-right: 10%;
 }
 /* For mobile phones: */
-[class*="col-"] {
+[class*="blog"] {
   width: 100%;
 }
 
