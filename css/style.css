@@ -1,6 +1,9 @@
+/* OVERALL */
 body, html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 /* NAVIGATION */
@@ -68,8 +71,11 @@ table, th {
     margin: 0 auto;
     width: 85px;   
 }
+td {
+    text-align: center;
+}
 
-/* TEST RESPONSIVE*/
+/* RESPONSIVE */
 .blogtablet, .blogdesktop {
     clear: both;
     margin-left: 10%;
@@ -119,5 +125,4 @@ table, th {
         margin-right: 2%;
         width: 9.5%;
     }
-}
 }
