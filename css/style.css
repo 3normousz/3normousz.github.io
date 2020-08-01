@@ -5,6 +5,28 @@ body, html {
     overflow-x: hidden;
     width: 100%;
 }
+/* TEXT */
+.Tropic {
+    font-size: 35px;
+}
+.subContent {
+    color: 	#FF0000;
+}
+/* TABLE */
+.maintable {
+    float: left;
+}
+.offtable {
+    float: left;
+    clear: both;
+}
+.tableContent {
+    float: left;
+}
+
+.offContent {
+    float: right;
+}
 
 /* NAVIGATION */
 .header {
@@ -46,14 +68,17 @@ body, html {
     font-family: "Press Start 2P";
 }
 
+
 /* FOOTER */
 footer {
+    clear: both;
+    font-family: monospace;
     text-align: center;
 }
 
 /* ITEMS TABLE CSS */
 table, th {
-    clear:both;
+    clear: both;
     margin-top: 18px; 
     border: 2px solid black;
 }
@@ -103,6 +128,17 @@ td {
 .logo {
     width: 45px;
 }
+.maintable {
+    width: 100%;
+    float: left;
+}
+.offtable {
+    width: 100%;
+}
+/* PICTURES */
+.skillsPic {
+    width: 100%;
+}
 @media only screen and (min-width: 768px) {
   /* For desktop: */
     .blogdesktop {
@@ -125,4 +161,14 @@ td {
         margin-right: 2%;
         width: 9.5%;
     }
+    .maintable {
+        width: 45%;
+    }
+    .offtable {
+        width: 45%;
+    }
+    /* PICTURES */
+    .skillsPic {
+    width: 40%;
+}
 }
