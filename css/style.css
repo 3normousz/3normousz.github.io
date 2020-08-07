@@ -102,20 +102,19 @@ td {
     text-align: center;
 }
 
-/* STILLS */
-
-.skillsPic {
-    display: block;
+/* SKILLS */
+.skillsContent {
+    text-align: center;
 }
 .passiveNav {
-    color: #555;
+    position: relative;
+} 
+.passiveNav a {
+    font-family: monospace;
     display: inline-block;
     text-align: center;
-}
-.skill1Nav, .skill2Nav, .ability {
-    color: #555;
-    display: inline-block;
-    text-align: center;
+    text-decoration: none;
+    color: #333;
 }
 
 /* RESPONSIVE */
@@ -125,9 +124,6 @@ td {
     margin-right: 10%;
 }
 /* For mobile phones: */
-[class*="blog"] {
-    width: 85%;
-}
 .navlist {
     display: inline-block;
     width: 100%;
@@ -162,33 +158,19 @@ td {
     padding: 8px;
     width: 35%;
 }
-.passiveNav {
-    font-size: 15px;
-    margin-left: 14%;
-    margin-right: 0%;  
-    overflow: hidden;
-}
-.skill1Nav, .skill2Nav, .ability {
-    font-size: 15px;
-    margin-left: 0%;
-    margin-right: 0%;  
-    overflow: hidden;
-}
-.skillsContent {
-    margin-left: 0%;
-    text-align: center;
-}
-.skillsPic {
-    margin-left: -2%;
-}
 .table_skillsContent {
-    margin-left: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
+.passiveNav a {
+    padding-right: 2%;
+}
+
+
 @media only screen and (min-width: 768px) {
-  /* For desktop: */
-    .blogdesktop {
-        width: 100%;
-    }
+/* For desktop: */
     .name {
         display: inline;
     }
@@ -213,6 +195,10 @@ td {
         width: 45%;
     }
     .skillsPic {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 40%;
     }
     .itemx, .skillx {
@@ -220,26 +206,11 @@ td {
         padding: 8px;
         width: 20%;
     }
-    .passiveNav {
-        font-size: 22px;
-        margin-left: 22%;
-        margin-right: 0%;  
-        overflow: hidden;
-    }
-    .skillsPic {
-        margin-left: 20%;
-    }
-    .skill1Nav, .skill2Nav, .ability {
-        font-size: 22px;
-        margin-left: 5.5%;
-        margin-right: 0%;  
-        overflow: hidden;
-    }
-    .skillsContent {
-        margin-left: -18.5%;
-        text-align: center;
-    }
     .table_skillsContent {
-        margin-left: 26.25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%;
     }
+
 }
