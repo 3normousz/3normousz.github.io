@@ -28,7 +28,6 @@ body, html {
 .offContent {
     float: right;
 }
-
 /* NAVIGATION */
 .header {
     background-color: #333;
@@ -153,6 +152,9 @@ td {
 .skillsPic {
     width: 100%;
 }
+.bossTimer {
+    width: 100%;
+}
 .itemx, .skillx {
     text-align: center;
     padding: 8px;
@@ -199,6 +201,11 @@ td {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 40%;
+    }
+    .bossTimer {
+        clear: both;
+        display: block;
         width: 40%;
     }
     .itemx, .skillx {
