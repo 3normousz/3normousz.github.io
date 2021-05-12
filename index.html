@@ -1,69 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NU_RPG</title>
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <img class="logo" src="logo.png" alt="Minecraft Logo">
-        <a href="index.html"><h1 class="name">NU_RPG</h1></a>
-        <nav>
-            <ul class="navlist">
-                <li><a href="gamemech.html">Game Mechanic</a></li>
-                <li class="XO"><a href="passive.html">Skills</a></li>
-                <li><a href="items.html">Weapons</a></li>
-                <li class="dropdown"><a href="index.html">Home</a>
-                </li>
-                
-            </ul>
-        </nav>    
-    </div>    
-    <div class="blogtablet blogdesktop">
-        <h1 class="Tropic">Getting Started</h1>
-        <h2 class="Subtropic"> ระบบ Login</h2>
-            <p class="Content">เข้าเกมมาครั้งแรกจะเจอกับระบบ Login, เราต้องพิมว่า  /reg รหัสผ่าน
-        (โดยรหัสผ่านต้องเป็นตัวเลขเท่านั้น) พอเข้าเซิฟครั้งต่อๆมาต้องพิม /login รหัสผ่าน <br>Ex: /reg 54154, /login 54154
-            </p>
-            <p class="subContent"> **เข้าเกมครั้งแรกถ้าถามว่า Yes No ตอนเข้าเซิฟกด Yes</p>
-        <hr><h2 class="Subtropic">Battle Power</h2>
-            <p class="Content">
-                กด shift ค้างเพื่อดู Level ของตัวเอง<br>
-                <figure>
-                    <img src="level.png" alt="show exactly how to find your level" class="bossTimer">
-                </figure>    
-                ยิ่งห่างจุดเกิด Monster (X=0,Y=0, Z=0) มาก  Level Monster จะมากตาม<br>
-                ฆ่า Monster เพื่อเพิ่ม Level<br>
-                ดาเมจจะเบาลงถ้า Level เราต่ำกว่าคนที่สู้ด้วย<br>
-                Level จะผูกกับสายที่เราเล่นขณะนั้น เช่น ถ้าเวล 15 ดาบ พอเปลี่ยนไป Trident จะเวล 1<br>
-                Level มากสุดตอนนี้คือ 20(เดี๋ยวค่อยเพิ่ม)<br>
-            </p>
-        <hr><h2 class=Subtropic>ระบบ Boss</h2>
-            <p class="Content">
-                บอสจะเกิดทุก ๆ 40 นาที (ต้องรอคนเรียก)<br>
-                <figure>
-                    <img src="boss_build.png" alt="show exactly how to build the boss" class="bossTimer">
-                    <figcaption class="inst">ใช้ Blackstone (ขุดจาก Nether) ล้อมรอบบล็อคทอง (ใช้ Gold Ingot 9 อันคราฟ)</figcaption><br>
-                    <img src="boss_lit.png" alt="step after built them, light fire on the golden block" class="bossTimer">
-                    <figcaption>ให้จุดไฟตรงกลาง(ตรงบล็อคทอง)</figcaption>
-                </figure>
-                กด shift ค้างเพื่อดูเวลาบอสที่เหลือ<br>
-                <figure>
-                    <img src="boss_time.png" alt="show exactly where the boss timer is" class="bossTimer"><br>
-                </figure>
-                Level ของ บอสจะมากขึ้นตาม Player รอบ ๆ<br>
-                ทุกๆคนจะสุ่มจำนวนเหล็ก/หินบอสที่ได้(ไม่แย่งกัน)<br>
-                ยิ่งคนตีเยอะ ยิ่งมีโอกาสได้ของเยอะขึ้น<br>
-                มีโอกาส 30% ที่จะได้จากบอส<br>
-                </p>
-    </div><hr>
-    <footer>
-        Enormous 2020 &copy;
-    </footer>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html">ErkArk RPG</a></li>
+            <li class="item">Home</li>
+            <li class="item has-submenu">Class
+                <ul class="submenu">
+                    <li class="subitem">Class1</li>
+                    <li class="subitem">Class2</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 </body>
-
 </html>
