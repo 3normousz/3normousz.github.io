@@ -5,76 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="pic/logo.png">
     <title>ErkArk RPG</title>
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li class="logo"><a href="index.html">ErkArk RPG</a></li>
-            <li class="item"><a href="../index.html">Homepage</a></li>
-            <li class="item"><a href="index.html">Home</a></li>
-            <li class="item has-submenu">Class
-                <ul class="submenu">
-                    <li class="subitem"><a href="warlord.html">Warlord</a></li>
-                    <li class="subitem"><a href="ruler.html">Ruler</a></li>
-                    <li class="subitem"><a href="flameweaver.html">Flameweaver</a></li>
-                    <li class="subitem"><a href="galecaller.html">Galecaller</a></li>
-                    <li class="subitem"><a href="dragonkin.html">Dragonkin</a></li>
-                    <li class="subitem"><a href="deathbringer.html">Deathbringer</a></li>
-                    <li class="subitem"><a href="mindmender.html">Mindmender</a></li>
-                    <li class="subitem"><a href="timewielder.html">Timewielder</a></li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light navbg">
+        <a class="navbar-brand text-white ps-2" href="index.html">ErkArk_RPG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white ps-2" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-        </ul>
+            <li class="nav-item dropdown ps-2">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Class
+                </a>
+                <div class="dropdown-menu drpbg" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Warlord</a>
+                  <a class="dropdown-item" href="#">Flameweaver</a>
+                  <a class="dropdown-item" href="#">Dragonkin</a>
+                  <a class="dropdown-item" href="#">Minstrel</a>
+                  <a class="dropdown-item" href="#">Ruler</a>
+                  <a class="dropdown-item" href="#">Galecaller</a>
+                  <a class="dropdown-item" href="#">Deathbringer</a>
+                  <a class="dropdown-item" href="#">Timewielder</a>
+                </div>
+            </li>
+          </ul>
+          <span class="navbar-text text-white ps-2 pe-2"><a class="myHomepage text-white" href="../My Homepage/index.html">
+            My Homepage</a>
+          </span>
+        </div>
     </nav>
-    
-    <div class="content">
+
+    <div class="title">
         <h1 class="content-header">Newly overhauled classes</h1>
     </div>
 
-    <div class="grid">
-        <div class="card">
-            <h1 class="card-header">Warlord</h1>
-            <p class="card-text">Tank<br></p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
-            <button class="card-btn"><a href="warlord.html">Learn more</a></button>
-        </div>
-        <div class="card">
-            <h1 class="card-header">Flameweaver</h1>
-            <p class="card-text">Damage<br></p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
-            <button class="card-btn">Learn more</button>
-        </div>
-        <div class="card">
-            <h1 class="card-header">Dragonkin</h1>
-            <p class="card-text">Flank<br></p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i></p>
-            <button class="card-btn">Learn more</button>
-        </div>
-        <div class="card">
-            <h1 class="card-header">Minstrel</h1>
-            <p class="card-text">Support<br</p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
-            <button class="card-btn">Learn more</button>
-        </div> 
-        <div class="card">
-            <h1 class="card-header">Ruler</h1>
-            <p class="card-text">Tank<br></p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
-            <button class="card-btn">Learn more</button>
-        </div>
-        <div class="card">
-            <h1 class="card-header">Galecaller</h1>
-            <p class="card-text">Damage<br></p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
-            <button class="card-btn">Learn more</button>
-        </div>
-        <div class="card">
-            <h1 class="card-header">Deathbringer</h1>
-            <p class="card-text">Flank<br></p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i></p>
-            <button class="card-btn">Learn more</button>
-        </div>
-        <div class="card">
-            <h1 class="card-header">Timewielder</h1>
-            <p class="card-text">Support<br></p><p class="classDifficulty">Difficulty: <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
-            <button class="card-btn">Learn more</button>
-        </div>    
+    <div class="cardBox">
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class = "container">
+                <p class="cardTitle">Warlord</p>
+                <p class="cardContent">Tank</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
+            </div>
+        </section>
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class = "container">
+                <p class="cardTitle">Flameweaver</p>
+                <p class="cardContent">Damage</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
+            </div>
+        </section>
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class="container">
+                <p class="cardTitle">Dragonkin</p>
+                <p class="cardContent">Flank</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i></p>
+            </div>
+        </section>
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class = "container">
+                <p class="cardTitle">Minstrel</p>
+                <p class="cardContent">Support</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
+            </div>
+        </section>
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class = "container">
+                <p class="cardTitle">Ruler</p>
+                <p class="cardContent">Tank</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
+            </div>
+        </section>
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class="container">
+                <p class="cardTitle">Galecaller</p>
+                <p class="cardContent">Damage</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
+            </div>
+        </section>
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class = "container">
+                <p class="cardTitle">Deathbringer</p>
+                <p class="cardContent">Flank</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i></p>
+            </div>
+        </section>
+        <section class="column-lg-3 colmn-md-6 colmn-sd-12">
+            <div class = "container">
+                <p class="cardTitle">Timewielder</p>
+                <p class="cardContent">Support</p>
+                <p class="cardDifficulty">Difficulty : <i class="fas fa-star fullstar"></i> <i class="fas fa-star fullstar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i> <i class="fas fa-star emptystar"></i></p>
+            </div>
+        </section>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
