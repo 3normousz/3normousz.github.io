@@ -5,11 +5,13 @@ body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
 
-    background: url(../pic/Me5.jpg) no-repeat center center fixed; 
+    background-color: #24A19C;
+
+    /*background: url(../pic/Me5.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 .bg {
@@ -32,47 +34,27 @@ body {
     margin-top: 30px;
     margin-left: 51px;
 }
-.btngroup {
-    margin-top: 580px;
+.myPhoto {
+    width: 30%;
 }
 
-.btn {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center!important;
+.mt-10 {
+    margin-top: 10rem !important;
 }
 
-.btn-xls {
-    padding: 10px 40px;
+.btnbg {
+    color: #FAEEE7;
+    background-color: #325288;
+}
+
+.btntext {
     font-size: 20px;
-    border-radius: 5px;
 }
 
-.btn-xl {
-    padding: 10px 55px;
+.mySchool {
     font-size: 20px;
-    border-radius: 5px;
 }
 
-/*
- * Globals
- */
-
-
-/* Custom default button */
-/*.btn-primary,
-.btn-primary:hover,
-.btn-primary:focus {
-  color: #333;
-  text-shadow: none;
+.entryGuide {
+    font-size: 20px;
 }
-
-.px-3 {
-    margin-top: 580px;
-}
-
-.btn {
-    margin-left: 35px;
-}*/
-
