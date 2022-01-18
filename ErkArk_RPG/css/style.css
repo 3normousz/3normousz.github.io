@@ -22,73 +22,18 @@
 .drpbg {
   background-color: #87c9c9;
 }
+
+.navbar-toggler {
+  margin-right: 6px;
+  background-color: white;
+}
+
 .myHomepage {
   text-decoration: none;
 }
 
-
-h1 {
-  margin: 100px;
-  text-align: center;
-  font-family: Helvetica;
-  font-weight: bold;
-  font-size: 175%;
-}
-
-section {
-  position: relative;
-  padding: 15px;
-  width: 100%;
-}
-
-p {
-  position: relative;
-  clear: right;
-}
-
-.container {
-  background-color: #DDDDDD;
-  border-radius: 1rem;
-}
-
-.cardTitle {
-  font-size: 150%;
-  font-weight: bold;
-  width: 100px;
-  padding-top: 20px;
-  padding-left: 20px;
-  margin: 0px;
-
-}
-
-.cardContent {
-  padding: 15px;
-  padding-top: 20px;
-  padding-left: 20px;
-  color: black;
-  margin: 0px;
-  /*height: 200px;*/
-}
-
-.cardDifficulty {
-  padding-top: 2px;
-  padding-left: 20px;
-  padding-bottom: 12px;
-  color: black;
-  margin: 0px;
-
-}
-
-.cardRow {
-  width: 100%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-
-.cardBox {
-  
+.cardClass {
+  margin-top: 24px;
 }
 
 .fa-star {
@@ -104,38 +49,19 @@ p {
   color: white;
 }
 
-/*large device*/
-@media (min-width: 992px) {
-  .column-lg-3 {
-    float: left;
-    width: 25%;
-  }
-  .column-lg-4 {
-    float: left;
-    width: 33.33%;
-  }
-  .column-lg-5 {
-    float: left;
-    width: 41.66%;
-  }
+.badge-card {
+  padding: 8px;
 }
 
-/*medium device*/
-@media (min-width: 768px) and (max-width: 991px) {
-  .colmn-md-6 {
-      float: left;
-      width: 50%;
-  }
-  .colmn-md-12 {
-      float: left;
-      width: 100%;
-  }
+.badge-link {
+  color: white!important;
+  text-decoration: none;
 }
 
-/*small device*/
-@media (max-width: 767px) {
-  .colmn-sd-12 {
-      float: left;
-      width: 100%;
-  }
+.badge-inline {
+  background-color: #077b88;
+}
+
+.badge-inline:hover {
+  background-color: #87c9c9;
 }
