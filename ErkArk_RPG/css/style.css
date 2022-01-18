@@ -65,3 +65,8 @@
 .badge-inline:hover {
   background-color: #87c9c9;
 }
+
+.footer-mail {
+  color: black;
+  text-decoration: none;
+}
