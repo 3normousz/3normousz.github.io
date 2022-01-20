@@ -79,18 +79,14 @@
   text-decoration: none;
 }
 
-.copyIP {
-  position:absolute;
-  left:-1000px;
-}
-
-.copyBtn {
+.copyBtn, .ipBtn {
   padding: 8px;
   border: none !important;
+  border-radius: 0px 2px 2px 0px;
 }
 
 .icon-clipboard {
-  padding: 2px;
+  padding: 4px;
   padding-left: 4px;
   padding-right: 4px;
 }

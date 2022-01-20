@@ -13,6 +13,7 @@
     <title>ErkArk RPG</title>
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light navbg">
         <a class="navbar-brand text-white ps-2" href="index.html">ErkArk_RPG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -181,16 +182,17 @@
                 <h5 class="text-uppercase" style="font-size: 18px;">How to join us ?</h5>
                 <p style="font-size: 15px;">
                   You can join us by adding or direct join this IP </p>
-                  <input type="text" value="110.164.204.242:37619" id="serverIP" class="copyIP">
-                  <div class="btn-group">
-                    <button class="copyBtn" onclick="copyToClipBoard()">110.164.204.242:37619</i></button>
-                    <button class="btn btn-primary active" onclick="copyToClipBoard()"><i class="fas fa-clipboard icon-clipboard"></i>
-                  </div>
+                <button class="ipBtn">
+                    110.164.204.242:37619
+                </button>
+                <button id="tooltip-click-copybtn" class="btn-primary copyBtn test">
+                    <i class="fas fa-clipboard icon-clipboard"></i>
+                </button>
             </div>
             <div class="col-lg-6 col-md-12 mb-4 mt-4">
               <h5 class="text-uppercase" style="font-size: 18px;">About this website</h5>
               <p style="font-size: 15px;">
-                	This website aims to provide all the information on the server since there are too many of them. Moreover, I’m learning web development so this will be great practice for me.
+                	This website aims to provide all the information on the server since they are too much. Moreover, I’m learning web development so this will be great practice for me.
               </p>
             </div>
           </div>
@@ -201,9 +203,26 @@
         </div>
       </footer>
 
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/clipboard.js-master/dist/clipboard.min.js"></script>
+    <script>
+        tippy('#tooltip-click-copybtn', {
+            trigger: 'click',
+            content: 'Copied!',
+            placement: 'bottom',
+            hideOnClick: false,
+            onShow(instance) {
+                setTimeout(() => {
+                    instance.hide();
+                }, 1000);
+            }
+        });
+      </script>
 
 </body>
 </html>
