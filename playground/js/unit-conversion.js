@@ -145,7 +145,12 @@ function addOptionText() {
         parseFloat(result = unit_m * 39.37),
         //parseFloat(result = unit_m / 9,461,000,000,000,000)
     ]
-    for (let i = 0; i < 8; i++) {
-        document.getElementById('unitSelector2').options[i].innerText = document.getElementById('unitSelector2').options[i].innerText + " (" + allresults[i] + ") ";
+    if (document.getElementById("unit1").value === ""){
+
+    }
+    else {
+        for (let i = 0; i < 8; i++) {
+            document.getElementById('unitSelector2').options[i].innerText = document.getElementById('unitSelector2').options[i].innerText + " (" + allresults[i] + ") ";
+        }
     }
 }
