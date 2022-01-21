@@ -13,8 +13,11 @@ body {
 }
 
 .btn:hover{
-    color: white;
     background-color: #363636;
+}
+
+.btn-text:hover {
+    color: white!important;
 }
 
 .btnbg {
@@ -34,6 +37,7 @@ body {
 .nav-textcustom {
     font-size: 24px;
 }
+
 .nav-icon {
     font-size: 16px;
 }
