@@ -1,38 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.myName {
-    font-size: 48px;
-    color: #dbdad6;
-    margin: 20px;
-    margin-top: 30px;
-    margin-left: 51px;
+.btn {
+    font-family: 'Open Sans', sans-serif;
 }
-.myPhoto {
-    width: 30%;
+
+.btn:hover{
+    color: white;
+    background-color: #363636;
 }
 
 .btnbg {
     color: #202020;
-    background-color: #beab9e;
+    background-color: #999999;
     border: 0px;
 }
 
-.btntext {
-    font-size: 20px;
-}
-
-.mySchool {
-    font-size: 20px;
-}
-
-.entryGuide {
-    font-size: 20px;
+.btnbg:hover {
+    background-color: #bdbdbd;
 }
 
 .navbar-toggler {
@@ -47,13 +39,17 @@ body {
 }
 
 .mt-10{
-    margin-top: 68px;
+    margin-top: 110px;
+}
+
+.pb-10 {
+    padding-bottom: 48px;
 }
 
 .fs-10{
     font-size: 36px;
 }
 
-.footerBg {
-    background-color: #999999;
+.pt-10 {
+    padding-top: 64px;
 }
