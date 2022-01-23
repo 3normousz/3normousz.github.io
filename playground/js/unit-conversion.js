@@ -46,20 +46,20 @@ function unitToMeters() {
     }
 
     if (unitChoice1 === "mi") {
-        parseFloat(unit_m = unit1 * 1609);
+        parseFloat(unit_m = unit1 * 1609); //1609
     }
 
     if (unitChoice1 === "yd") {
-        parseFloat(unit_m = unit1 / 1.094);
+        parseFloat(unit_m = unit1 / 1.0936); //1.094
     }
 
     if (unitChoice1 === "ft") {
-        parseFloat(unit_m = unit1 / 3.281);
+        parseFloat(unit_m = unit1 / 3.2808398950); ///3.281
         
     }
 
     if (unitChoice1 === "in") {
-        parseFloat(unit_m = unit1 / 39.37);
+        parseFloat(unit_m = unit1 / 39.370);
     }
     
     if (unitChoice1 === "ly") {
@@ -98,20 +98,20 @@ function metersToUnit() {
     }
 
     if (unitChoice2 === "mi") {
-        parseFloat(result = unit_m / 1609);
+        parseFloat(result = unit_m / 1609); // / 1609
     }
 
     if (unitChoice2 === "yd") {
-        parseFloat(result = unit_m * 1.094);
+        parseFloat(result = unit_m * 1.0936); //1.094
     }
 
     if (unitChoice2 === "ft") {
-        parseFloat(result = unit_m * 3.281);
+        parseFloat(result = unit_m * 3.2808398950); //3.281
         
     }
 
     if (unitChoice2 === "in") {
-        parseFloat(result = unit_m * 39.37);
+        parseFloat(result = unit_m * 39.370);
     }
     
     if (unitChoice2 === "ly") {
@@ -125,11 +125,17 @@ function convert() {
 
     metersToUnit();
 
-    document.getElementById("unit-result").value = result;
+    if (document.getElementById("unitSelector1").value === document.getElementById("unitSelector2").value) {
+        document.getElementById("unit-result").value.toFixed(4) = document.getElementById("unit1").value;
+
+    }
+    else {
+        document.getElementById("unit-result").value = result.toFixed(4);
+    }
 
 }
 
-function addOptionText() {
+/*function addOptionText() {
 
     metersToUnit();
 
@@ -153,4 +159,4 @@ function addOptionText() {
             document.getElementById('unitSelector2').options[i].innerText = document.getElementById('unitSelector2').options[i].innerText + " (" + allresults[i] + ") ";
         }
     }
-}
+}*/
