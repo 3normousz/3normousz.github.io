@@ -12,12 +12,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #363636;
 }
 
 .btn-text:hover {
-    color: white!important;
+    color: white !important;
 }
 
 .btnbg {
@@ -42,7 +42,7 @@ body {
     font-size: 16px;
 }
 
-.mt-10{
+.mt-10 {
     margin-top: 110px;
 }
 
@@ -50,10 +50,19 @@ body {
     padding-bottom: 48px;
 }
 
-.fs-10{
+.fs-10 {
     font-size: 36px;
 }
 
 .pt-10 {
     padding-top: 64px;
+}
+
+.ms-16 {
+    margin-top: -10px;
+    margin-left: 30%;
+}
+
+.margin-top-neg-16 {
+    margin-top: -16px;
 }
