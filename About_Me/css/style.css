@@ -63,6 +63,16 @@ body {
     margin-left: 30%;
 }
 
+.side-line {
+    flex-grow: 1;
+    align-self: stretch;
+    background-color: gray;
+    height: 3px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
 .margin-top-neg-16 {
     margin-top: -16px;
 }
