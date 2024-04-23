@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+    background-color: #363636;
+}
+
+.btn-text:hover {
+    color: white !important;
+}
+
+.btnbg {
+    color: #202020;
+    background-color: #999999;
+    border: 0px;
+}
+
+.btnbg:hover {
+    background-color: #bdbdbd;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-textcustom {
+    font-size: 24px;
+}
+
+.nav-icon {
+    font-size: 16px;
+}
+
+.mt-10 {
+    margin-top: 110px;
+}
+
+.pb-10 {
+    padding-bottom: 48px;
+}
+
+.fs-10 {
+    font-size: 36px;
+}
+
+.pt-10 {
+    padding-top: 64px;
+}
+
+.ms-16 {
+    margin-top: -10px;
+    margin-left: 30%;
+}
+
+.side-line {
+    flex-grow: 1;
+    align-self: stretch;
+    background-color: gray;
+    height: 3px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.margin-top-neg-16 {
+    margin-top: -16px;
+}
+
+@media screen and (max-width: 768px) {
+    .info-box {
+        margin-top: 2.25rem;
+    }
+    
+}
